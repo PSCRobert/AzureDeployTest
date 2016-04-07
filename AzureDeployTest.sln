@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2C7CD3CB-C6FD-4A0B-9D19-DF24FBD5B0C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{413BEBE5-060E-4801-A9D6-8C6229EB41EE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AzureDeployTest", "src\AzureDeployTest\AzureDeployTest.xproj", "{06303BA3-B6AD-4A48-942C-988AD5957ADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06303BA3-B6AD-4A48-942C-988AD5957ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06303BA3-B6AD-4A48-942C-988AD5957ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06303BA3-B6AD-4A48-942C-988AD5957ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06303BA3-B6AD-4A48-942C-988AD5957ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06303BA3-B6AD-4A48-942C-988AD5957ADB} = {2C7CD3CB-C6FD-4A0B-9D19-DF24FBD5B0C5}
+	EndGlobalSection
+EndGlobal
